@@ -28,7 +28,7 @@ window.SITE_CONFIG = {
   },
 
   theme: {
-    heroBg: "#111111",
+    heroBg: "#232A33",
     heroText: "#ffffff",
     pageBg: "#f8fafc",
     accent: "#7c3aed"
@@ -165,28 +165,28 @@ window.SITE_CONFIG = {
 	results: {
 			title: "Results & Potential Improvements",
 			subtitle:
-				"Train schedule simulation outputs across two scenarios showing arrivals, departures, and dwell time across four stations. Results are for educational purposes only.",
+				"Speed-density simulation results comparing the 100% HDV baseline and 100% CAV scenarios on Edge E145 at Sheppard Avenue West and Yonge Street.",
 
 			charts: {
 				left: {
-					title: "Scenario 1 — Train Schedule: Arrivals, Departures & Dwell Time",
+					title: "Base Scenario – 100% HDV Baseline Speed-Density Relationship",
 					src: "assets/img/image6.jpg",
-					alt: "Scenario 1 train schedule chart showing arrivals and departures across S1 to S4"
+					alt: "Speed-density diagram for the 100% HDV baseline scenario showing free-flow traffic conditions and severe congestion, with a fitted free-flow speed of 14.14 m/s and jam density of 259.2 vehicles per kilometre."
 				},
 				right: {
-					title: "Scenario 2 — Train Schedule: Arrivals, Departures & Dwell Time",
+					title: "Scenario A — 100% CAV Speed-Density Relationship",
 					src: "assets/img/image7.jpg",
-					alt: "Scenario 2 train schedule chart showing arrivals and departures across S1 to S4"
+					alt: "Speed-density diagram for the 100% CAV scenario showing traffic observations concentrated in low-density free-flow conditions, with a fitted free-flow speed of 15.71 m/s and estimated jam density of 118.7 vehicles per kilometre."
 				}
 			},
 
 			discussionTitle: "Discussion",
 			discussionBullets: [
-				"Scenario 1 provides a stable baseline timetable with consistent station dwell and smooth train progression.",
-				"Scenario 2 applies a delay at S2, which then propagates to downstream stations.",
-				"Delay effects grow across frequency levels, with major increases in arrival and departure times at S3 and S4.",
-				"S1 is only slightly affected, while downstream stations absorb most of the disruption.",
-				"This demonstrates the importance of recovery time, dwell management, and operational control in rail scheduling."
+				"Scenario A (100% HDV) experienced severe congestion, with observed densities reaching approximately 259.2 veh/km and vehicle speeds dropping toward zero.",
+				"Scenario B (100% CAV) maintained predominantly free-flow traffic conditions, with a fitted free-flow speed of 15.71 m/s compared with 14.14 m/s in the HDV baseline.",
+				"The CAV scenario reduced queue buildup under the simulated demand, with observations concentrated below approximately 25 veh/km rather than extending into the highly congested conditions observed in the baseline.",
+				"The CAV model used shorter following times (0.5 s), smaller minimum gaps (1.0 m), and zero driver imperfection, compared with the HDV parameters of 1.0 s, 2.5 m, and 0.5, respectively.",
+				"The CAV jam-density estimate of 118.7 veh/km is uncertain because the simulation produced little to no congested traffic data. The results demonstrate congestion reduction under the tested demand, but additional testing at higher demand is required."
 			]
 		},
 
@@ -196,7 +196,10 @@ window.SITE_CONFIG = {
       "This section clarifies academic context, roles, tools, and sources. Clear attribution improves credibility and shows ethical data handling.",
 
     members: [
-      { name: "Your Name", role: "Rail Scheduling & Signaling + Digital Twin I, Immersive VR Visualization + Results & Communication" }
+      { name: "Viroz D'Souza", role: "Results Analysis, Documentation, and Web Showcase" }
+      { name: "Rumi Alkani", role: "Project Coordination and Report Development" }
+      { name: "Oliver Naruse", role: "Road Network Modeling and Scenario Development" }
+      { name: "Samuel Rosales", role: "SUMO Simulation and Traffic Analysis" }
     ],
 
     acknowledgments: [
@@ -207,6 +210,6 @@ window.SITE_CONFIG = {
     ],
 
     repoLabel: "Project Repository",
-    repoUrl: "https://github.com/USERNAME/REPO"
+    repoUrl: "https://github.com/VirozVD/smartcity-projecta.github.io"
   }
 };
