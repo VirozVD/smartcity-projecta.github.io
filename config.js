@@ -3,7 +3,7 @@ window.SITE_CONFIG = {
   pageTitle: "Academic Digital Twin Case Study | Student Showcase",
   homeUrl: "https://roadwayvr.com",
 
-  hero: {Traffic congestion at Sheppard Avenue West and Yonge Street in Toronto creates operational challenges for urban transportation
+  hero: {
     profileImage: "assets/img/image1.jpg",
 
     // NEW: course code tag shown above the course project pill
@@ -144,10 +144,10 @@ window.SITE_CONFIG = {
       {
         title: "Module 3: HDV and CAV Scenario Comparison",
         bullets: [
-				  { text: "Scenario A represented a 100% Human-Driven Vehicle fleet using the baseline traffic signal timings." },
+			{ text: "Scenario A represented a 100% Human-Driven Vehicle fleet using the baseline traffic signal timings." },
           { text: "Scenario B replaced the HDVs with a 100% Connected Autonomous Vehicle fleet while maintaining the same network and demand." },
-          { text: "Speed and density observations from Edge E145 were compared to evaluate the operational effects of autonomous drivinge." }
-        ],
+		{ text: "Speed and density observations from Edge E145 were compared to evaluate the operational effects of autonomous driving." }
+		],
         image: "assets/img/image4.jpg"
       },
       {
@@ -196,9 +196,9 @@ window.SITE_CONFIG = {
       "This section clarifies academic context, roles, tools, and sources. Clear attribution improves credibility and shows ethical data handling.",
 
     members: [
-      { name: "Viroz D'Souza", role: "Results Analysis, Documentation, and Web Showcase" }
-      { name: "Rumi Alkani", role: "Project Coordination and Report Development" }
-      { name: "Oliver Naruse", role: "Road Network Modeling and Scenario Development" }
+      { name: "Viroz D'Souza", role: "Results Analysis, Documentation, and Web Showcase" },
+      { name: "Rumi Alkhani", role: "Project Coordination and Report Development" },
+      { name: "Oliver Naruse", role: "Road Network Modeling and Scenario Development" },
       { name: "Samuel Rosales", role: "SUMO Simulation and Traffic Analysis" }
     ],
 
