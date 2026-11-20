@@ -3,7 +3,7 @@ window.SITE_CONFIG = {
   pageTitle: "Academic Digital Twin Case Study | Student Showcase",
   homeUrl: "https://roadwayvr.com",
 
-  hero: {
+  hero: {Traffic congestion at Sheppard Avenue West and Yonge Street in Toronto creates operational challenges for urban transportation
     profileImage: "assets/img/image1.jpg",
 
     // NEW: course code tag shown above the course project pill
@@ -71,26 +71,26 @@ window.SITE_CONFIG = {
 
     backgroundTitle: "Background",
     backgroundBullets: [
-			"Global freight rail is growing and remains strategically important.",
-			"Rail carries about 18% of EU inland freight, 36% in the U.S., and 27% in India.",
-			"Road dominates many freight systems, so rail often receives less attention.",
-			"In Canada, rail accounted for 10.5% of international merchandise trade value in 2024."
+			"Traffic congestion at Sheppard Avenue West and Yonge Street in Toronto creates operational challenges for urban transportation.",
+			"This project uses SUMO microscopic traffic simulation to model the intersection and investigate potential improvements.",
+			"Connected Autonomous Vehicles (CAVs) and traffic signal modifications are evaluated as possible congestion-reduction strategies.",
+			"The study compares traffic performance using speed-density relationships on a representative roadway approach."
     ],
 
     problemTitle: "Problem Statement",
     problemBullets: [
-			"Railway operations are hard to assess.",
-			"3D asset creation is time-consuming.",
-			"2D models lack immersion.",
-			"Results are difficult to communicate."
+			"The intersection experiences traffic congestion and queue buildup under conventional human-driven traffic conditions.",
+			"The effectiveness of autonomous vehicles and traffic signal optimization must be evaluated before real-world implementation.",
+			"A controlled simulation is required to compare alternative traffic conditions while maintaining consistent road geometry and traffic demand.",
+			"The study investigates whether these strategies can reduce congestion and improve roadway efficiency."
     ],
 
     objectivesTitle: "Project Objectives",
     objectivesBullets: [
-			"Simulate train scheduling, signaling, and capacity in SUMO.",
-			"Create 3D digital assets using generative AI and blender.",
-			"Create 3D rail environment and VR video in Unity.",
-			"Present results in different styles through KPIs, figures, and a showcase website."
+			"Develop a digital roadway network of Sheppard Avenue West and Yonge Street and establish a 100% HDV baseline.",
+			"Compare traffic performance between a 100% HDV fleet and a 100% CAV fleet.",
+			"Implement an advanced-green traffic signal intervention and evaluate its impact on traffic congestion.",
+			"Communicate the project's methodology, simulation results, and conclusions through a web-based showcase."
     ]
   },
 
@@ -98,23 +98,23 @@ window.SITE_CONFIG = {
     title: "Methodology",
     steps: [
       {
-        title: "Step 1: Train Scheduling and Signaling (SUMO Simulation)",
-				text: "Build the rail network and test routing, signaling, and timetables.",
+        title: "Step 1: Study Area Selection",
+				text: "Sheppard Avenue West and Yonge Street in Toronto were selected as the study intersection for traffic simulation and operational analysis.",
         image: "assets/img/image2.jpg"
       },
       {
-				title: "Step 2: Digital Twin Assets Developement (Blender)",
-				text: "Create a 3D railway assets using generative AI and blender.",
+				title: "Step 2: Digital Road Network Development",
+				text: "The intersection was recreated in SUMO using road geometry, lane configurations, turning bays, and junction connections.",
         image: "assets/img/image3.jpg"
       },
       {
-				title: "Step 3: Immersive VR Visualization (Unity)",
-				text: "Create a 3D railway scene and produce a VR 360-degree video.",
+				title: "Step 3: Baseline and CAV Simulation",
+				text: "A 100% HDV baseline was simulated and compared with a 100% CAV scenario using identical traffic demand and network conditions.",
         image: "assets/img/image4.jpg"
       },
       {
-				title: "Step 4: Results & Communication (Figures + Showcase Website)",
-				text: "Summarize results using figures, KPIs, and the showcase website.",
+				title: "Step 4: Traffic Signal Intervention",
+				text: "An eight-second advanced-green phase for left-turning traffic was implemented and evaluated against the baseline scenario.",
         image: "assets/img/image5.jpg"
       }
     ]
@@ -124,38 +124,38 @@ window.SITE_CONFIG = {
     title: "Methodology Steps (Demo Modules)",
     modules: [
       {
-        title: "Module 1: Train Scheduling & Signaling (SUMO)",
+        title: "Module 1: Study Area Selection",
         bullets: [
-				  { text: "Build a simulated rail network in SUMO with train routing and maximum operating speed." },
-          { text: "Design fixed-block rail signals and define station stops along the corridor." },
-          { text: "Configure timetable, scheduled departures, running time, dwell time, and headway." }
+				  { text: "The study focused on Sheppard Avenue West and Yonge Street in Toronto, Ontario." },
+          { text: "The intersection was selected to investigate urban traffic congestion and roadway efficiency." },
+          { text: "A representative upstream roadway segment, Edge E145, was selected for speed-density analysis." }
         ],
         image: "assets/img/image2.jpg"
       },
       {
-        title: "Module 2: Digital Twin Assets Developement (Blender)",
+        title: "Module 2: Digital Road Network Development",
         bullets: [
-          { text: "Generative AI: use Meshy.ai tool to develop different assets." },
-          { text: "From generative AI to belnder." },
-          { text: "Preprocessing assets in Blender ." }
+          { text: "The intersection network was developed in SUMO using NetEdit and aerial imagery." },
+          { text: "Major roads, local streets, lanes, turning bays, and junction connections were modeled." },
+          { text: "Traffic demand and traffic signal configurations were then incorporated to establish the simulation environment." }
         ],
         image: "assets/img/image3.jpg"
       },
       {
-        title: "Module 3: Immersive VR Visualization (Unity)",
+        title: "Module 3: HDV and CAV Scenario Comparison",
         bullets: [
-				  { text: "Develop a 3D railway environment including stations, buildings, trees, and rolling stock." },
-          { text: "Configure visualization fundamentals: lighting, camera position, time of day, and scene composition." },
-          { text: "Produce a VR 360-degree video output for immersive presentation and portfolio use." }
+				  { text: "Scenario A represented a 100% Human-Driven Vehicle fleet using the baseline traffic signal timings." },
+          { text: "Scenario B replaced the HDVs with a 100% Connected Autonomous Vehicle fleet while maintaining the same network and demand." },
+          { text: "Speed and density observations from Edge E145 were compared to evaluate the operational effects of autonomous drivinge." }
         ],
         image: "assets/img/image4.jpg"
       },
       {
-        title: "Module 4: Results & Communication",
+        title: "Module 4: Traffic Signal Intervention",
         bullets: [
-          { text: "Dashboard or plot set: KPI cards, bar charts, and/or time series." },
-          { text: "Scenario story: what changed, what improved, and what tradeoffs appeared." },
-          { text: "Limitations + next steps: what data would strengthen confidence." }
+          { text: "Scenario C retained a 100% HDV fleet and introduced Intervention X." },
+          { text: "An eight-second advanced-green phase was added for left-turning traffic while adjusting the remaining signal timings." },
+          { text: "The resulting speed-density observations were compared against the HDV baseline to evaluate congestion reduction." }
         ],
         image: "assets/img/image5.jpg"
       }
